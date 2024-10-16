@@ -15,7 +15,11 @@ npm install encirca-styles@latest
 
 
 ## Buttons (Normal)
+### Import
+```
+import {Button} from 'encirca-styles';
 
+```
 ```html
 <Button variant="primary">Primary btn</Button>
 <Button variant="secondary">Secondary btn</Button>
@@ -37,7 +41,11 @@ npm install encirca-styles@latest
 ```
 
 ## Typography (Headings)
+### Import
+```
+import {H1, H2, H3, H4, H5, H6} from 'encirca-styles';
 
+```
 ```html
 <H1>Heading 1</H1>
 <H2>Heading 2</H2>
@@ -48,7 +56,11 @@ npm install encirca-styles@latest
 ```
 
 ## Typography (Body)
+### Import
+```
+import {Text} from 'encirca-styles';
 
+```
 ```html
 <Text variant="body-large">Body size large</Text>
 <Text variant="body-regular">Body size regular</Text>

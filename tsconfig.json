@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "node16",
+    "moduleResolution": "node16",
+    "lib": ["DOM", "ES2020"],
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "removeComments": true,
+    "sourceMap": true,
+    "preserveSymlinks": true,
+    "typeRoots": ["./node_modules/@types", "./node_modules/noke-ui/dist"] // Add this
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
